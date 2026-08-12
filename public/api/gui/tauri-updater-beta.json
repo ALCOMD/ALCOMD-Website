@@ -1,20 +1,20 @@
 {
-  "version": "3.3.0-beta.1",
-  "notes": "ALCOMD3 v3.3.0-beta.1. See https://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.1 for details.",
+  "version": "3.3.0-beta.2",
+  "notes": "ALCOMD3 v3.3.0-beta.2. See https://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.2 for details.",
   "notes_i18n": {
-    "de": "MCP läuft jetzt vollständig in der GUI mit 33 Werkzeugen, RMCP 3.1.2 und Aufgabenunterstützung. Diese Beta ergänzt außerdem Anzeigenamen für Repositorys und Einstellungen für MCP-Werkzeugnamen sowie Verbesserungen an Layout und Installation.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.1",
-    "en": "MCP now runs entirely inside the GUI with 33 tools, RMCP 3.1.2, and task support. This beta also adds repository display names and MCP tool-name preferences, plus layout and installer usability improvements.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.1",
-    "fr": "MCP fonctionne désormais entièrement dans l’interface graphique avec 33 outils, RMCP 3.1.2 et la prise en charge des tâches. Cette bêta ajoute aussi les noms d’affichage des dépôts et les préférences de nom des outils MCP, ainsi que des améliorations de mise en page et d’installation.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.1",
-    "ja": "MCP を 33 個のツール、RMCP 3.1.2、Tasks 対応とともに GUI へ完全に内蔵しました。このベータでは、リポジトリ表示名と MCP ツール名設定に加え、レイアウトとインストール操作も改善しています。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.1",
-    "ko": "MCP가 이제 33개 도구, RMCP 3.1.2 및 Tasks 지원과 함께 GUI에서 완전히 실행됩니다. 이 베타에는 저장소 표시 이름과 MCP 도구 이름 설정이 추가되었으며 레이아웃과 설치 사용성도 개선되었습니다.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.1",
-    "zh_hans": "MCP 现已完全内置于 GUI，并提供 33 个工具、RMCP 3.1.2 与 Tasks 支持。本测试版还新增存储库显示名称和 MCP 工具名称设置，并改进布局与安装体验。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.1",
-    "zh_hant": "MCP 現已完全內建於 GUI，並提供 33 個工具、RMCP 3.1.2 與 Tasks 支援。本測試版還新增儲存庫顯示名稱和 MCP 工具名稱設定，並改善版面配置與安裝體驗。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.1"
+    "de": "Fügt eine integrierte Discord-Präsenz mit Unity-Livevorschau hinzu und verbessert Repository-Importe durch Teilerfolge, genaue Fortschrittsanzeigen, wiederverwendete Downloads und eine unabhängige Paketaktualisierung.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.2",
+    "en": "Adds built-in Discord presence with a live Unity preview, and improves repository imports with partial success, accurate progress, reused downloads, and an independent package refresh.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.2",
+    "fr": "Ajoute une présence Discord intégrée avec aperçu Unity en direct et améliore l’importation des dépôts avec réussite partielle, progression précise, réutilisation des téléchargements et actualisation indépendante des paquets.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.2",
+    "ja": "Unity のライブプレビュー付き組み込み Discord プレゼンスを追加し、部分成功、正確な進捗、ダウンロード結果の再利用、独立したパッケージ更新によってリポジトリのインポートを改善しました。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.2",
+    "ko": "실시간 Unity 미리보기가 포함된 내장 Discord 프레즌스를 추가하고 부분 성공, 정확한 진행률, 다운로드 재사용 및 독립적인 패키지 새로 고침으로 저장소 가져오기를 개선했습니다.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.2",
+    "zh_hans": "新增带实时 Unity 预览的内置 Discord 状态，并通过部分成功、准确进度、复用下载结果和独立软件包刷新改进存储库导入。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.2",
+    "zh_hant": "新增具備即時 Unity 預覽的內建 Discord 狀態，並透過部分成功、準確進度、重複使用下載結果與獨立軟體套件重新整理改善儲存庫匯入。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0-beta.2"
   },
-  "pub_date": "2026-08-10T15:04:33Z",
+  "pub_date": "2026-08-12T08:46:37Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1liei9TTkFjMEl4a0tpQVZmU2VXdXZvVXVueE5XRWt2TUxuRWVETnk5VkNPQ1U3R005NElGeS9FbzFLSjJPa0k4bVNnRkR1KzZtTlMwN1FidmtybWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzczOTg4CWZpbGU6QUxDT01EM18zLjMuMC1iZXRhLjFfd2luZG93c194ODZfNjRfc2V0dXAuZXhlCXB1cnBvc2U6cmVsZWFzZQpXMURhUTdQVnQyU2k5ZHBaRnFVT2ZKTGtiWGdwSWZmN3hOME5VQ1dVNlNVak5OczN6M1dDUW9BK3daWFZsSHg1ZCttM3hGaFBUTjBVUmd6Zkt1MUFCQT09Cg==",
-      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.3.0-beta.1/ALCOMD3_3.3.0-beta.1_windows_x86_64_setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M2JJOU1HelMwT3VwS3ZkWVZ3aTJQMWF6bmlFVy9tUkVZWUI3bnp4N3RrWDZlMGVWYVUvSFNXTFJYZ2R6dytBZDdYdkVHdTdUUjQ0c1ltTEdEemV5dFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTI0MDc2CWZpbGU6QUxDT01EM18zLjMuMC1iZXRhLjJfd2luZG93c194ODZfNjRfc2V0dXAuZXhlCXB1cnBvc2U6cmVsZWFzZQpBQWxMaVNmVjZJNE5VeENNMnF1bFpPTExHZnFQMyt6MVoxbDNxZFUxVUluVGg0Y2s2bkt0SjhkMFoxVzNYRzRqMFc4Um1UdWFHS1Z4WEREdVlZTCtEUT09Cg==",
+      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.3.0-beta.2/ALCOMD3_3.3.0-beta.2_windows_x86_64_setup.exe",
       "args": [
         "/SP-",
         "/SILENT",
@@ -24,13 +24,13 @@
       ]
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1pwMk5ueDlXbXBRQWExTHN3czlVSndDU2M5MXlwR3J3cGhmd0ZLaW45WVc5eEFhMzdJRU55R0FBSXZGdktIZUtvczVyK2UzZWRFOTMzR2x4VE1Pc0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzczOTkyCWZpbGU6QUxDT01EM18zLjMuMC1iZXRhLjFfbWFjb3NfYWFyY2g2NC5hcHAudGFyLmd6CXB1cnBvc2U6cmVsZWFzZQpSRHVzV1MxL2U3ZkJ6b3owSUJ0WTRISm5ndHNlOFVZUm16eXZnZ2lDdXZNRDl5dEVrL25WQ29OL3N1aFBIUlA0NzdZbHJPaTNrWTNiOGdiZ2lFRTdDZz09Cg==",
-      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.3.0-beta.1/ALCOMD3_3.3.0-beta.1_macos_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1F2S3ZtNStaWkpMbVhBZitxUXo5Ty8zYVdMK3h4ZE9qWmozN1pVNHdhNzJsZjhDYW5DWVJrOHRvRVNUdDhwTWpobDhqZnpMMDR1MXJZRDYvMUJXTUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTI0MDgyCWZpbGU6QUxDT01EM18zLjMuMC1iZXRhLjJfbWFjb3NfYWFyY2g2NC5hcHAudGFyLmd6CXB1cnBvc2U6cmVsZWFzZQowbjNkdlZ1elgzQTgvalY2aTBydGxhaGo4RWhWRGt6eDZHZENkM0NOQ1AxaUNUamZkaUZ1K1c4b1VTMlVyaGxSUEs0K0lyZmQvc2NpTlBKMTlxeklEUT09Cg==",
+      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.3.0-beta.2/ALCOMD3_3.3.0-beta.2_macos_aarch64.app.tar.gz",
       "args": []
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1ZXQXkzVmw3V1ZMSHZVb2xMMjViOGxYVTFEaGxWWDRtai9DbTMxSFhreW9UWUtla3J6MHlSLzJTNXlrVHpJNHAzREYraDd6cmJRQWJuWmwxMnRIM2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzczOTk3CWZpbGU6QUxDT01EM18zLjMuMC1iZXRhLjFfbGludXhfeDg2XzY0LkFwcEltYWdlLnRhci5neglwdXJwb3NlOnJlbGVhc2UKb05EK213cTdCZnpERVZ4ci9Da0swNFlocmRCNGM4a3RNclcwcDkyRlh5Y21iQTBzaXJkbE14aVZZNmxoM0I0MG5Ba2lSeFVZNjlnUnZTR2dQb0ZEQkE9PQo=",
-      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.3.0-beta.1/ALCOMD3_3.3.0-beta.1_linux_x86_64.AppImage.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M2MwVzlhTzdNdGgxWVROZDRyNGF6enRwb2szd0MrYTQ1VHd3WjNCSVBNaFpqaVZaeTI2aG0vZGU1THRjRUNiSFB4OVMxVlpIaFRQMGVTNmEveDgvaHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTI0MDg4CWZpbGU6QUxDT01EM18zLjMuMC1iZXRhLjJfbGludXhfeDg2XzY0LkFwcEltYWdlLnRhci5neglwdXJwb3NlOnJlbGVhc2UKUTN4ZDRDNVU3cHZSQ0t5UE0xdk9laFFNeGxrMzNGLzIxa2JmVG9NWnZlcXBtR1NkUmJkR08vbkplTDFqbkFlN2hYLzgwNGk4amkwSUpEcGhiWUpxQXc9PQo=",
+      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.3.0-beta.2/ALCOMD3_3.3.0-beta.2_linux_x86_64.AppImage.tar.gz",
       "args": []
     }
   }
