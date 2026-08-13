@@ -1,20 +1,20 @@
 {
-  "version": "3.2.0",
-  "notes": "ALCOMD3 v3.2.0. See https://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.2.0 for details.",
+  "version": "3.3.0",
+  "notes": "ALCOMD3 v3.3.0. See https://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0 for details.",
   "notes_i18n": {
-    "de": "Fügt die MCP-Verwaltung von Projektvorlagen hinzu, verbessert die Erkennung und Fokussierung des Unity-Editors, bewahrt benutzerdefinierte Paketpfade und lokalisiert Fehler bei Paketvorgängen.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.2.0",
-    "en": "Adds MCP project-template management, improves Unity editor detection and focusing, preserves custom package paths, and localizes package-operation errors.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.2.0",
-    "fr": "Ajoute la gestion des modèles de projet via MCP, améliore la détection et la mise au premier plan de l’éditeur Unity, conserve les chemins de paquets personnalisés et localise les erreurs d’opérations sur les paquets.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.2.0",
-    "ja": "MCP によるプロジェクトテンプレート管理を追加し、Unity エディタの検出とフォーカスを改善しました。カスタムパッケージパスを保持し、パッケージ操作エラーをローカライズしました。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.2.0",
-    "ko": "MCP 프로젝트 템플릿 관리를 추가하고 Unity 에디터 감지 및 포커스를 개선했습니다. 사용자 지정 패키지 경로를 보존하고 패키지 작업 오류를 현지화했습니다.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.2.0",
-    "zh_hans": "新增 MCP 项目模板管理，改进 Unity 编辑器检测与聚焦，保留自定义包路径，并本地化包操作错误。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.2.0",
-    "zh_hant": "新增 MCP 專案範本管理，改進 Unity 編輯器偵測與聚焦，保留自訂套件路徑，並將套件操作錯誤本地化。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.2.0"
+    "de": "Fügt eine integrierte anpassbare Discord-Präsenz hinzu, bettet alle 33 MCP-Werkzeuge in die GUI ein und verbessert Repository-Importe, Fortschrittsgenauigkeit, dauerhafte Einstellungen, responsive Layouts sowie Windows-Installations- und Deinstallationsoptionen.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0",
+    "en": "Adds built-in customizable Discord presence, embeds all 33 MCP tools in the GUI, and improves repository imports, progress accuracy, persistent preferences, responsive layouts, and Windows installation and removal options.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0",
+    "fr": "Ajoute une présence Discord intégrée et personnalisable, intègre les 33 outils MCP dans l’interface graphique et améliore l’importation des dépôts, la précision de la progression, les préférences persistantes, les mises en page adaptatives ainsi que les options d’installation et de désinstallation sous Windows.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0",
+    "ja": "カスタマイズ可能な組み込み Discord プレゼンスを追加し、33 個すべての MCP ツールを GUI に内蔵しました。リポジトリのインポート、進捗精度、設定の永続化、レスポンシブレイアウト、Windows のインストールおよびアンインストール設定も改善しています。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0",
+    "ko": "사용자 지정 가능한 내장 Discord 프레즌스를 추가하고 33개 MCP 도구를 모두 GUI에 통합했습니다. 저장소 가져오기, 진행률 정확도, 설정 유지, 반응형 레이아웃 및 Windows 설치·제거 옵션도 개선했습니다.\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0",
+    "zh_hans": "新增可自定义的内置 Discord 状态，将全部 33 个 MCP 工具内置到 GUI，并改进存储库导入、进度准确性、偏好持久化、响应式布局以及 Windows 安装和卸载选项。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0",
+    "zh_hant": "新增可自訂的內建 Discord 狀態，將全部 33 個 MCP 工具內建至 GUI，並改善儲存庫匯入、進度準確性、偏好持久化、響應式版面配置以及 Windows 安裝與解除安裝選項。\n\nhttps://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.3.0"
   },
-  "pub_date": "2026-08-09T05:26:02Z",
+  "pub_date": "2026-08-13T14:51:56Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1ZqaFNwNDFrS3BkWjA0ZHl4MzVNczE2QkJEVmxXSG40dUZmQmFTcXZZZ2QvNEVoYVVjVldRR1BhaUdOZHhncjdBa0VlQ3NBd1IvQ0VxQ2NzbXVlZndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjUyOTkzCWZpbGU6QUxDT01EM18zLjIuMF93aW5kb3dzX3g4Nl82NF9zZXR1cC5leGUJcHVycG9zZTpyZWxlYXNlClN5a2VOeGx3bHh4a2N2RjRMVEIzWm91QVFzMTY4MmRacnp3RGNnQlNoalFPeDNQdzkxQVB6YU5PTmUxUUNDYXBBQVVIdnp2L2RHTStRa3BsVnJlaURnPT0K",
-      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.2.0/ALCOMD3_3.2.0_windows_x86_64_setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1dORHFtWEhSMlF4OWlxMzhWMnI1K0RsbWQxNVRXZFNGNTV2YzM0RW52VHlFRE42L0VCeDlnbWZlR2YxWWxMeiszQjBhQW5PQ0VvaEdFUHBFbjMvQmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjMyNTg1CWZpbGU6QUxDT01EM18zLjMuMF93aW5kb3dzX3g4Nl82NF9zZXR1cC5leGUJcHVycG9zZTpyZWxlYXNlCnJUNTlTYlFqdEFzNnVlVmJUbTdhUWhqSWpQUHNQc1VnOEFuNzFnbDVhcmZ4NTBTMUdMc3FTaWNaR2JDUEliZWVIOGNUQlAzNnU4QlVGdllURjRndkN3PT0K",
+      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.3.0/ALCOMD3_3.3.0_windows_x86_64_setup.exe",
       "args": [
         "/SP-",
         "/SILENT",
@@ -24,13 +24,13 @@
       ]
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M2FvWnFoNWFEYmJWaUt3ZWZoY3RiQnNUbnBjMGlIWDR2SlJTMGZwNkR5Y2w5V1dzWXFQaWNRUFRmUktyU3I2dTRnVHhxaU43NzNwQUFsQm9BVkYya1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjUyOTk3CWZpbGU6QUxDT01EM18zLjIuMF9tYWNvc19hYXJjaDY0LmFwcC50YXIuZ3oJcHVycG9zZTpyZWxlYXNlCmxndjZHTTBZcytzT2dIL0lnaVkrWUgzZkhCTFlLYlhZSllJZFpVK0dROVJsR0JsZERSQmU2ZFJ3RFZEQWlhdjI0QnVwWjNYNG8xYzlTNWRjcnBxV0N3PT0K",
-      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.2.0/ALCOMD3_3.2.0_macos_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M2JGTUMxMjd1ZUFNZFdYR3k3cFZnd0Z1OHptelVUaEJTUXVTZG1JdCtYZjJNQXJBcVczRWxVamk4Nmt5Q0Z1MWp1ZUhCb0h0ZnE5VGh5VmFKdlNJT1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjMyNTkyCWZpbGU6QUxDT01EM18zLjMuMF9tYWNvc19hYXJjaDY0LmFwcC50YXIuZ3oJcHVycG9zZTpyZWxlYXNlClNVdFAvTTFhUGlxbHN4WTRobFpSZXZnS1BzNURLZmNBWTdROE5Tck5kSitrWG51blRJRDU5azVnZTQ3UlQxcGxXbU1DMEY4MHl2M0hsRjhmSjN0UENRPT0K",
+      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.3.0/ALCOMD3_3.3.0_macos_aarch64.app.tar.gz",
       "args": []
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1ZreW1tUVB0Y3NqV0FuM21yL3RDSGJxdG9PbUx4WUFVNXIzTllkaFNNUkJVU3JZdVJ3RjBKT1pUTjBLOFZxMUEzclNUcmVkSXZBMmdBYU9iU1owMVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjUzMDAyCWZpbGU6QUxDT01EM18zLjIuMF9saW51eF94ODZfNjQuQXBwSW1hZ2UudGFyLmd6CXB1cnBvc2U6cmVsZWFzZQpFRkgvVEZYcWY1Z3lUbVBLQVpBZ3FJaXIxcHNueGV3SFFjeW0wcVNrZVFjMVNKaDJQMGFwS1QwRzRkNzhaTXdNOHpzbkwrZGVCOG5tb09XZGxMQ2hBQT09Cg==",
-      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.2.0/ALCOMD3_3.2.0_linux_x86_64.AppImage.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M2Y1S1JadUtVWnJKeE5SS0RSVGtxSjI0THNXN1VkMU00UHFwVGVmemRsK05OMVVoR1ppOTVFbmt3VEdOWGNYc0ZVdU5qTDE2ditORFB5ZWVPaUMreWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjMyNTk5CWZpbGU6QUxDT01EM18zLjMuMF9saW51eF94ODZfNjQuQXBwSW1hZ2UudGFyLmd6CXB1cnBvc2U6cmVsZWFzZQppckloa3BCWGhsZ0NKMTRjNHBrS3VTcDNXckErWXlFNG53UVNmRlNlRkM4OVI3R0kxTE81RGw4OTdyOTVuNjNFc2pxajdwMXBxNFhNaGN3SjhIQTNEUT09Cg==",
+      "url": "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.3.0/ALCOMD3_3.3.0_linux_x86_64.AppImage.tar.gz",
       "args": []
     }
   }
