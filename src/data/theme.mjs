@@ -5,9 +5,9 @@ import {
     argbFromHex,
     hexFromArgb,
 } from "@material/material-color-utilities";
-import alcomd3Config from "../../alcomd3.config.json" with { type: "json" };
+import alcomdConfig from "../../alcomd.config.json" with { type: "json" };
 
-export const themeSeedColor = alcomd3Config.themeSeedColor;
+export const themeSeedColor = alcomdConfig.themeSeedColor;
 
 const sourceColor = Hct.fromInt(argbFromHex(themeSeedColor));
 const colorRoles = {

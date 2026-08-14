@@ -61,7 +61,7 @@ const releasePlatforms = {
 
 function createConfig() {
     return {
-        repository: "ALCOMD3/ALCOMD3",
+        repository: "ALCOMD/ALCOMD",
         releasePlatforms: structuredClone(releasePlatforms),
     };
 }
@@ -76,7 +76,7 @@ function createManifest(platformKeys = Object.keys(releasePlatforms), version = 
             return [
                 platformKey,
                 {
-                    url: `https://github.com/ALCOMD3/ALCOMD3/releases/download/v${version}/${updaterFileName}`,
+                    url: `https://github.com/ALCOMD/ALCOMD/releases/download/v${version}/${updaterFileName}`,
                     signature: "test-signature",
                 },
             ];
@@ -89,7 +89,7 @@ describe("createDownloadCatalog", () => {
         const catalog = createDownloadCatalog(createConfig(), createManifest(), { channel: "beta" });
 
         assert.equal(catalog.version, "3.4.5-beta.1");
-        assert.equal(catalog.releaseUrl, "https://github.com/ALCOMD3/ALCOMD3/releases/tag/v3.4.5-beta.1");
+        assert.equal(catalog.releaseUrl, "https://github.com/ALCOMD/ALCOMD/releases/tag/v3.4.5-beta.1");
         assert.equal(catalog.hasDownloads, true);
         assert.deepEqual(catalog.operatingSystems, ["Windows", "macOS", "Linux"]);
         assert.deepEqual(
@@ -105,23 +105,23 @@ describe("createDownloadCatalog", () => {
                         format: "dmg",
                         assetName: "ALCOMD3_3.4.5-beta.1_macos_aarch64.dmg",
                         primary: true,
-                        url: "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_macos_aarch64.dmg",
+                        url: "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_macos_aarch64.dmg",
                     },
                 ],
             },
         );
         assert.deepEqual(catalog.downloadUrls, [
-            "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_windows_x86_64_setup.exe.zip",
-            "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_macos_aarch64.dmg",
-            "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_linux_x86_64.AppImage",
-            "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_linux_amd64.deb",
+            "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_windows_x86_64_setup.exe.zip",
+            "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_macos_aarch64.dmg",
+            "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_linux_x86_64.AppImage",
+            "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.5-beta.1/ALCOMD3_3.4.5-beta.1_linux_amd64.deb",
         ]);
     });
 
     test("marks the beta catalog unpublished when an asset does not satisfy the release contract", () => {
         const manifest = createManifest();
         manifest.platforms["windows-x86_64"].url =
-            "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.4.5-beta.1/alcomd3-3.4.5-beta.1-setup.exe";
+            "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.5-beta.1/alcomd3-3.4.5-beta.1-setup.exe";
         const catalog = createDownloadCatalog(createConfig(), manifest, {
             allowEmpty: true,
             channel: "beta",
@@ -197,7 +197,7 @@ describe("createDownloadCatalog", () => {
     test("rejects manifest platforms that have no shared release configuration", () => {
         const manifest = createManifest(["windows-x86_64"]);
         manifest.platforms["future-platform"] = {
-            url: "https://github.com/ALCOMD3/ALCOMD3/releases/download/v3.4.5-beta.1/future.tar.gz",
+            url: "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.5-beta.1/future.tar.gz",
         };
 
         assert.throws(
@@ -228,7 +228,7 @@ describe("stable release handling", () => {
     test("keeps legacy stable assets on the release page without asset aliases", () => {
         const manifest = createManifest(["windows-x86_64"], "2.1.1");
         manifest.platforms["windows-x86_64"].url =
-            "https://github.com/ALCOMD3/ALCOMD3/releases/download/v2.1.1/alcomd3-2.1.1-setup.exe";
+            "https://github.com/ALCOMD/ALCOMD/releases/download/v2.1.1/alcomd3-2.1.1-setup.exe";
 
         const catalog = createStableDownloadCatalog(createConfig(), manifest);
 

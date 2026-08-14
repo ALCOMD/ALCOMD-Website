@@ -55,7 +55,7 @@ describe("fetchContributors", () => {
 
         assert.equal(
             request.input,
-            "https://api.github.com/repos/ALCOMD3/ALCOMD3/contributors?per_page=100",
+            "https://api.github.com/repos/ALCOMD/ALCOMD/contributors?per_page=100",
         );
         assert.equal(request.init.headers.get("Accept"), "application/vnd.github+json");
         assert.equal(request.init.headers.get("X-GitHub-Api-Version"), "2026-03-10");

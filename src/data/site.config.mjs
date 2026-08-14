@@ -1,24 +1,24 @@
-import alcomd3Config from "../../alcomd3.config.json" with { type: "json" };
-import stableUpdaterManifest from "../../public/api/gui/tauri-updater.json" with { type: "json" };
-import betaUpdaterManifest from "../../public/api/gui/tauri-updater-beta.json" with { type: "json" };
+import alcomdConfig from "../../alcomd.config.json" with { type: "json" };
+import stableUpdaterManifest from "../../public/api/v1/updates/stable.json" with { type: "json" };
+import betaUpdaterManifest from "../../public/api/v1/updates/beta.json" with { type: "json" };
 import {
     createDownloadCatalog,
     createStableDownloadCatalog,
 } from "./downloads.mjs";
 import { themeColors, themeSeedColor } from "./theme.mjs";
 
-const homepageUrl = alcomd3Config.homepageUrl.replace(/\/$/, "");
-const repositoryUrl = `https://github.com/${alcomd3Config.repository}`;
-const websiteRepositoryUrl = `https://github.com/${alcomd3Config.websiteRepository}`;
+const homepageUrl = alcomdConfig.homepageUrl.replace(/\/$/, "");
+const repositoryUrl = `https://github.com/${alcomdConfig.repository}`;
+const websiteRepositoryUrl = `https://github.com/${alcomdConfig.websiteRepository}`;
 const contributorsApiUrl = new URL(
-    `/repos/${alcomd3Config.repository}/contributors`,
+    `/repos/${alcomdConfig.repository}/contributors`,
     "https://api.github.com",
 );
 contributorsApiUrl.searchParams.set("per_page", "100");
 
-const publisherRepositoryOwner = alcomd3Config.repository.split("/")[0];
-const stableRelease = createStableDownloadCatalog(alcomd3Config, stableUpdaterManifest);
-const betaDownloads = createDownloadCatalog(alcomd3Config, betaUpdaterManifest, {
+const publisherRepositoryOwner = alcomdConfig.repository.split("/")[0];
+const stableRelease = createStableDownloadCatalog(alcomdConfig, stableUpdaterManifest);
+const betaDownloads = createDownloadCatalog(alcomdConfig, betaUpdaterManifest, {
     allowEmpty: true,
     channel: "beta",
     unavailableOnContractMismatch: true,
@@ -26,10 +26,10 @@ const betaDownloads = createDownloadCatalog(alcomd3Config, betaUpdaterManifest, 
 
 export const siteConfig = {
     url: homepageUrl,
-    name: alcomd3Config.productName,
-    shortName: alcomd3Config.productName,
-    googleAnalyticsMeasurementId: alcomd3Config.googleAnalyticsMeasurementId,
-    authorName: alcomd3Config.publisherName,
+    name: alcomdConfig.productName,
+    shortName: alcomdConfig.productName,
+    googleAnalyticsMeasurementId: alcomdConfig.googleAnalyticsMeasurementId,
+    authorName: alcomdConfig.publisherName,
     authorUrl: `https://github.com/${publisherRepositoryOwner}`,
     repositoryUrl,
     websiteRepositoryUrl,
@@ -47,7 +47,7 @@ export const siteConfig = {
     themeSeedColor,
     themeColorLight: themeColors.light,
     themeColorDark: themeColors.dark,
-    externalLinks: alcomd3Config.externalLinks,
+    externalLinks: alcomdConfig.externalLinks,
     stableRelease,
     betaDownloads,
     downloadChannels: [stableRelease, betaDownloads],

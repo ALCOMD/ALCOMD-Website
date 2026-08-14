@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { supportedRouteLocales } from "../../src/data/i18n.config.mjs";
 
-test("all localized routes build and expose the three-control header", async ({ page }) => {
+test("all localized routes build and expose the four-control header", async ({ page }) => {
     for (const locale of supportedRouteLocales) {
         for (const path of ["", "download/", "mcp/", "mcp/tools/"]) {
             const response = await page.goto(`/${locale}/${path}`);
@@ -19,9 +19,8 @@ test("all localized routes build and expose the three-control header", async ({ 
 
     await page.goto("/en-us/");
     const header = page.locator(".app-header");
-    await expect(header.locator("md-filled-tonal-icon-button")).toHaveCount(3);
-    await expect(header).not.toContainText("Download");
-    await expect(header).not.toContainText("MCP Docs");
+    await expect(header.locator("md-filled-tonal-icon-button")).toHaveCount(4);
+    await expect(header.locator(".header-primary-links .header-nav-link")).toHaveCount(2);
 });
 
 test("theme and language controls persist explicit choices", async ({ page }) => {
@@ -136,8 +135,8 @@ test("the MCP guide exposes a localized nested table of contents", async ({ page
     await expect(page.locator(".docs-toc-sidebar .docs-document-link.is-current")).toHaveText(
         "工具参考",
     );
-    await expect(page.locator(".docs-content")).toContainText("29 个 MCP 工具");
-    await expect(page.locator(".docs-source a")).toHaveText(/ALCOMD3\/ALCOMD3@[0-9a-f]{7}/);
+    await expect(page.locator(".docs-content")).toContainText("33 个 MCP 工具");
+    await expect(page.locator(".docs-source a")).toHaveText(/ALCOMD\/ALCOMD@[0-9a-f]{7}/);
 });
 
 test.describe("without JavaScript", () => {
@@ -150,7 +149,8 @@ test.describe("without JavaScript", () => {
         const selectors = [
             "#language-menu-anchor",
             "#theme-menu-anchor",
-            ".header-actions md-filled-tonal-icon-button[href]",
+            ".header-actions .header-partner-button[href]",
+            ".header-actions md-filled-tonal-icon-button[href]:not(.header-partner-icon-button)",
             ".hero-actions md-filled-button",
             ".hero-actions md-outlined-button",
             ".section-action md-filled-tonal-button",
@@ -174,7 +174,7 @@ test.describe("without JavaScript", () => {
         for (const href of await links.evaluateAll((elements) => (
             elements.map((element) => element.getAttribute("href"))
         ))) {
-            expect(href).toMatch(/^https:\/\/github\.com\/ALCOMD3\/ALCOMD3\/releases\/download\//);
+            expect(href).toMatch(/^https:\/\/github\.com\/ALCOMD\/ALCOMD\/releases\/download\//);
         }
     });
 });

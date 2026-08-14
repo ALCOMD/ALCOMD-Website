@@ -1,10 +1,10 @@
 {
     "productName": "ALCOMD3",
     "publisherName": "CQMHV",
-    "homepageUrl": "https://alcomd3.cqmhv.com/",
+    "homepageUrl": "https://alcomd.cqmhv.com/",
     "googleAnalyticsMeasurementId": "G-2FM0L3PK2F",
-    "repository": "ALCOMD3/ALCOMD3",
-    "websiteRepository": "ALCOMD3/ALCOMD3-Website",
+    "repository": "ALCOMD/ALCOMD",
+    "websiteRepository": "ALCOMD/ALCOMD-Website",
     "themeSeedColor": "#6cb6ff",
     "externalLinks": {
         "booth": "https://cqmhv.booth.pm/items/8408577",

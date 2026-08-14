@@ -4,12 +4,12 @@ import path from "node:path";
 import process from "node:process";
 
 const projectRoot = path.resolve(import.meta.dirname, "..");
-const alcomd3Config = JSON.parse(
-    await readFile(path.join(projectRoot, "alcomd3.config.json"), "utf8"),
+const alcomdConfig = JSON.parse(
+    await readFile(path.join(projectRoot, "alcomd.config.json"), "utf8"),
 );
-const repository = alcomd3Config.repository;
+const repository = alcomdConfig.repository;
 if (typeof repository !== "string" || !/^[0-9A-Za-z_.-]+\/[0-9A-Za-z_.-]+$/.test(repository)) {
-    throw new Error("alcomd3.config.json repository must use OWNER/REPOSITORY format");
+    throw new Error("alcomd.config.json repository must use OWNER/REPOSITORY format");
 }
 const repositoryUrl = `https://github.com/${repository}`;
 const rawRepositoryUrl = new URL(`${repository}/`, "https://raw.githubusercontent.com/");
@@ -73,7 +73,7 @@ function rewriteWebsiteLinks(markdown, kind) {
 async function resolveRemoteCommit() {
     const headers = {
         Accept: "application/vnd.github+json",
-        "User-Agent": "ALCOMD3-Website-doc-sync",
+        "User-Agent": "ALCOMD-Website-doc-sync",
         "X-GitHub-Api-Version": "2022-11-28",
     };
     if (process.env.GITHUB_TOKEN) {
@@ -102,7 +102,7 @@ async function loadSourceDocument(sourcePath, commit) {
 
     const sourceUrl = new URL(`${commit}/${sourcePath}`, rawRepositoryUrl);
     const response = await fetch(sourceUrl, {
-        headers: { "User-Agent": "ALCOMD3-Website-doc-sync" },
+        headers: { "User-Agent": "ALCOMD-Website-doc-sync" },
     });
     if (!response.ok) {
         throw new Error(`Unable to download ${sourcePath}: ${response.status}`);
