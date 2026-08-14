@@ -34,7 +34,8 @@ npm run dev
 /
 ├── alcomd.config.json
 ├── public/
-│   ├── api/v1/updates/
+│   ├── api/gui/                # v3.4.0 迁移入口
+│   ├── api/v1/updates/         # 3.4.0 后续 Bridge API
 │   └── assets/
 ├── scripts/
 │   └── generate-theme.mjs
@@ -58,6 +59,8 @@ commit，再从该固定 commit 下载全部语言版本到被 Git 忽略的 `sr
 `npm run sync:mcp-docs -- --source ../ALCOMD` 从相邻仓库生成内容。
 
 主题令牌由 `alcomd.config.json` 中的种子色生成。稳定版与测试版下载信息分别读取新标准 API 的 `public/api/v1/updates/stable.json` 和 `public/api/v1/updates/beta.json`。
+
+`public/api/gui/tauri-updater.json` 是早于 3.4.0 的客户端使用的冻结迁移入口；旧域名会保留路径重定向到这里。`public/_redirects` 将旧 beta 路径内部代理到同一 Stable JSON，使所有旧频道只迁移到最终 v3 Bridge 版本 3.4.0。该 JSON 只能由 ALCOMD3 正式发布 workflow 在公开 Release 资产验证完成后更新。
 
 ## 许可证
 

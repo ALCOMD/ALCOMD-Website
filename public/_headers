@@ -1,0 +1,9 @@
+/api/gui/*.json
+    Cache-Control: public, max-age=300, must-revalidate
+    Content-Type: application/json; charset=utf-8
+    X-Content-Type-Options: nosniff
+
+/api/v1/updates/*.json
+    Cache-Control: public, max-age=300, must-revalidate
+    Content-Type: application/json; charset=utf-8
+    X-Content-Type-Options: nosniff
