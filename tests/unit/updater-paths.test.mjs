@@ -18,6 +18,7 @@ test("the website and public updater metadata use the canonical production domai
     const legacyManifestText = await readFile(legacyStablePath, "utf8");
 
     assert.equal(config.homepageUrl, "https://alcomd.vrclearn.com/");
+    assert.equal(config.mcpDocumentationRef, "v3.4.0");
     assert.match(legacyManifestText, /alcomd\.vrclearn\.com/);
     assert.doesNotMatch(legacyManifestText, /alcomd3?\.cqmhv\.com/);
 });

@@ -13,7 +13,14 @@ if (typeof repository !== "string" || !/^[0-9A-Za-z_.-]+\/[0-9A-Za-z_.-]+$/.test
 }
 const repositoryUrl = `https://github.com/${repository}`;
 const rawRepositoryUrl = new URL(`${repository}/`, "https://raw.githubusercontent.com/");
-const defaultRef = "main";
+const sourceRef = alcomdConfig.mcpDocumentationRef;
+if (
+    typeof sourceRef !== "string"
+    || !/^[0-9A-Za-z._/-]+$/.test(sourceRef)
+    || sourceRef.includes("..")
+) {
+    throw new Error("alcomd.config.json mcpDocumentationRef must be a safe Git ref");
+}
 const sourceArgumentIndex = process.argv.indexOf("--source");
 if (sourceArgumentIndex >= 0 && !process.argv[sourceArgumentIndex + 1]) {
     throw new Error("--source requires a repository path");
@@ -81,11 +88,11 @@ async function resolveRemoteCommit() {
     }
 
     const response = await fetch(
-        `https://api.github.com/repos/${repository}/commits/${defaultRef}`,
+        `https://api.github.com/repos/${repository}/commits/${encodeURIComponent(sourceRef)}`,
         { headers },
     );
     if (!response.ok) {
-        throw new Error(`Unable to resolve ${repository}@${defaultRef}: ${response.status}`);
+        throw new Error(`Unable to resolve ${repository}@${sourceRef}: ${response.status}`);
     }
 
     const payload = await response.json();
@@ -128,7 +135,7 @@ for (const document of documents) {
 
 const provenance = {
     repository,
-    ref: defaultRef,
+    ref: sourceRef,
     commit,
     sourceUrl: `${repositoryUrl}/tree/${commit}/docs`,
     documents: documents.map(({ source, target }) => ({ source, target })),
@@ -139,4 +146,4 @@ await writeFile(
     "utf8",
 );
 
-console.log(`Synced MCP documentation from ${repository}@${commit}`);
+console.log(`Synced MCP documentation from ${repository}@${sourceRef} (${commit})`);

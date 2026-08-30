@@ -56,9 +56,9 @@ npm run dev
 网站提供 `en-US`、`zh-CN`、`zh-TW` 和 `ja-JP` 四种语言。根路径仅负责按浏览器或已保存偏好跳转到对应语言；首页、下载页和 MCP 文档页均为静态生成。
 
 MCP 主指南和工具参考不在网站仓库维护副本。`predev`、`precheck` 和 `prebuild`
-会运行 `scripts/sync-mcp-docs.mjs`，先解析 `ALCOMD/ALCOMD` 的最新 `main`
-commit，再从该固定 commit 下载全部语言版本到被 Git 忽略的 `src/generated/mcp/`，
-随后由 Astro 生成静态页面。本地也可运行
+会运行 `scripts/sync-mcp-docs.mjs`，先解析 `alcomd.config.json` 中配置的
+`ALCOMD/ALCOMD` 文档 ref，再从对应的固定 commit 下载全部语言版本到被 Git 忽略的
+`src/generated/mcp/`，随后由 Astro 生成静态页面。本地也可运行
 `npm run sync:mcp-docs -- --source ../ALCOMD` 从相邻仓库生成内容。
 
 主题令牌由 `alcomd.config.json` 中的种子色生成。稳定版与测试版下载信息分别读取新标准 API 的 `public/api/v1/updates/stable.json` 和 `public/api/v1/updates/beta.json`。
