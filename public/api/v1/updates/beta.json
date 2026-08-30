@@ -1,20 +1,20 @@
 {
-  "version": "3.3.0-beta.2",
-  "notes": "ALCOMD3 v3.3.0-beta.2. See https://github.com/ALCOMD/ALCOMD/releases/tag/v3.3.0-beta.2 for details.",
+  "version": "3.4.0",
+  "notes": "ALCOMD3 v3.4.0. See https://github.com/ALCOMD/ALCOMD/releases/tag/v3.4.0 for details.",
   "notes_i18n": {
-    "de": "Fügt eine integrierte Discord-Präsenz mit Unity-Livevorschau hinzu und verbessert Repository-Importe durch Teilerfolge, genaue Fortschrittsanzeigen, wiederverwendete Downloads und eine unabhängige Paketaktualisierung.\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.3.0-beta.2",
-    "en": "Adds built-in Discord presence with a live Unity preview, and improves repository imports with partial success, accurate progress, reused downloads, and an independent package refresh.\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.3.0-beta.2",
-    "fr": "Ajoute une présence Discord intégrée avec aperçu Unity en direct et améliore l’importation des dépôts avec réussite partielle, progression précise, réutilisation des téléchargements et actualisation indépendante des paquets.\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.3.0-beta.2",
-    "ja": "Unity のライブプレビュー付き組み込み Discord プレゼンスを追加し、部分成功、正確な進捗、ダウンロード結果の再利用、独立したパッケージ更新によってリポジトリのインポートを改善しました。\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.3.0-beta.2",
-    "ko": "실시간 Unity 미리보기가 포함된 내장 Discord 프레즌스를 추가하고 부분 성공, 정확한 진행률, 다운로드 재사용 및 독립적인 패키지 새로 고침으로 저장소 가져오기를 개선했습니다.\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.3.0-beta.2",
-    "zh_hans": "新增带实时 Unity 预览的内置 Discord 状态，并通过部分成功、准确进度、复用下载结果和独立软件包刷新改进存储库导入。\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.3.0-beta.2",
-    "zh_hant": "新增具備即時 Unity 預覽的內建 Discord 狀態，並透過部分成功、準確進度、重複使用下載結果與獨立軟體套件重新整理改善儲存庫匯入。\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.3.0-beta.2"
+    "de": "Letzte v3-Bridge-Version. Verschiebt den Update-Dienst zu alcomd.vrclearn.com, damit signierte ALCOMD-4.x-Migrationsupdates gefunden werden können.\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.4.0",
+    "en": "Final v3 Bridge release. Moves the update service to alcomd.vrclearn.com so signed ALCOMD 4.x migration updates can be discovered.\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.4.0",
+    "fr": "Dernière version Bridge v3. Déplace le service de mise à jour vers alcomd.vrclearn.com afin de détecter les mises à jour de migration ALCOMD 4.x signées.\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.4.0",
+    "ja": "最後の v3 Bridge リリースです。更新サービスを alcomd.vrclearn.com に移し、署名済み ALCOMD 4.x 移行更新を検出できるようにします。\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.4.0",
+    "ko": "최종 v3 Bridge 릴리스입니다. 업데이트 서비스를 alcomd.vrclearn.com으로 옮겨 서명된 ALCOMD 4.x 마이그레이션 업데이트를 검색할 수 있게 합니다.\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.4.0",
+    "zh_hans": "最终 v3 Bridge 版本。将更新服务迁移到 alcomd.vrclearn.com，以发现经过签名的 ALCOMD 4.x 迁移更新。\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.4.0",
+    "zh_hant": "最終 v3 Bridge 版本。將更新服務遷移至 alcomd.vrclearn.com，以探索經過簽章的 ALCOMD 4.x 遷移更新。\n\nhttps://github.com/ALCOMD/ALCOMD/releases/tag/v3.4.0"
   },
-  "pub_date": "2026-08-12T08:46:37Z",
+  "pub_date": "2026-08-15T04:45:46Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M2JJOU1HelMwT3VwS3ZkWVZ3aTJQMWF6bmlFVy9tUkVZWUI3bnp4N3RrWDZlMGVWYVUvSFNXTFJYZ2R6dytBZDdYdkVHdTdUUjQ0c1ltTEdEemV5dFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTI0MDc2CWZpbGU6QUxDT01EM18zLjMuMC1iZXRhLjJfd2luZG93c194ODZfNjRfc2V0dXAuZXhlCXB1cnBvc2U6cmVsZWFzZQpBQWxMaVNmVjZJNE5VeENNMnF1bFpPTExHZnFQMyt6MVoxbDNxZFUxVUluVGg0Y2s2bkt0SjhkMFoxVzNYRzRqMFc4Um1UdWFHS1Z4WEREdVlZTCtEUT09Cg==",
-      "url": "https://github.com/ALCOMD/ALCOMD/releases/download/v3.3.0-beta.2/ALCOMD3_3.3.0-beta.2_windows_x86_64_setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1g2b2MveWppZ0lmRDRCcUV0cUJwclF3N3F1ajBpQjY3bXBoNWd3ajY5L1hCdGRkTk1PN3drU3J0cDdEU0Rab1RNb2ZRUkFFUjR1c3hNcVN6ckp1R3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzY5MDM5CWZpbGU6QUxDT01EM18zLjQuMF93aW5kb3dzX3g4Nl82NF9zZXR1cC5leGUJcHVycG9zZTpyZWxlYXNlCmhmWHBLc28ya1kyckM2ek9meTdnbjN3a0llK3JMYkZ6eTkyakFGR1pST09RMndURWIwYzNsMHV5Y3JKbjUxYnRJWFpsOVZKUUVhVGYwQkJIbXBLK0JBPT0K",
+      "url": "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.0/ALCOMD3_3.4.0_windows_x86_64_setup.exe",
       "args": [
         "/SP-",
         "/SILENT",
@@ -24,13 +24,13 @@
       ]
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1F2S3ZtNStaWkpMbVhBZitxUXo5Ty8zYVdMK3h4ZE9qWmozN1pVNHdhNzJsZjhDYW5DWVJrOHRvRVNUdDhwTWpobDhqZnpMMDR1MXJZRDYvMUJXTUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTI0MDgyCWZpbGU6QUxDT01EM18zLjMuMC1iZXRhLjJfbWFjb3NfYWFyY2g2NC5hcHAudGFyLmd6CXB1cnBvc2U6cmVsZWFzZQowbjNkdlZ1elgzQTgvalY2aTBydGxhaGo4RWhWRGt6eDZHZENkM0NOQ1AxaUNUamZkaUZ1K1c4b1VTMlVyaGxSUEs0K0lyZmQvc2NpTlBKMTlxeklEUT09Cg==",
-      "url": "https://github.com/ALCOMD/ALCOMD/releases/download/v3.3.0-beta.2/ALCOMD3_3.3.0-beta.2_macos_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1l0aVVVQzFobVJSVXZIRlZoaG5YbE5aZ0tpbkNoSnNCK3dZVFE5SU9VSmRIM3VkT0tEbnZhMlB2dGVMajdwK2NMajA0VVFKL2p1cDFwdnNyREFJUEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzY5MDQ1CWZpbGU6QUxDT01EM18zLjQuMF9tYWNvc19hYXJjaDY0LmFwcC50YXIuZ3oJcHVycG9zZTpyZWxlYXNlCnExV3loTWlIN1BQaW84SlBDNWZubGlqdktXRnFpUVBXZzhPaUZ3VGtyWitLZndLamlJbkhQdSs3Z0pBR3NLR1hQQVBvTDNjTnN6QkpHNXU0ZE9OVkRBPT0K",
+      "url": "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.0/ALCOMD3_3.4.0_macos_aarch64.app.tar.gz",
       "args": []
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M2MwVzlhTzdNdGgxWVROZDRyNGF6enRwb2szd0MrYTQ1VHd3WjNCSVBNaFpqaVZaeTI2aG0vZGU1THRjRUNiSFB4OVMxVlpIaFRQMGVTNmEveDgvaHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTI0MDg4CWZpbGU6QUxDT01EM18zLjMuMC1iZXRhLjJfbGludXhfeDg2XzY0LkFwcEltYWdlLnRhci5neglwdXJwb3NlOnJlbGVhc2UKUTN4ZDRDNVU3cHZSQ0t5UE0xdk9laFFNeGxrMzNGLzIxa2JmVG9NWnZlcXBtR1NkUmJkR08vbkplTDFqbkFlN2hYLzgwNGk4amkwSUpEcGhiWUpxQXc9PQo=",
-      "url": "https://github.com/ALCOMD/ALCOMD/releases/download/v3.3.0-beta.2/ALCOMD3_3.3.0-beta.2_linux_x86_64.AppImage.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIEFMQ09NRDMgdXBkYXRlciBrZXkKUlVTd0JJVHZnNHp2M1Q3OGpLMWFkSEdHU3hGRlRsNkRKVXFRUzlaMDNidGVoSy9KTnY5d0hKTUNwVG04NmMwYWFkU0ZRWFlVVEtaUWw3Q3U1Smk5WnlmSWtTUy9zLzBzS0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzY5MDUxCWZpbGU6QUxDT01EM18zLjQuMF9saW51eF94ODZfNjQuQXBwSW1hZ2UudGFyLmd6CXB1cnBvc2U6cmVsZWFzZQpZL0U3dm5uWTJUODhuZ3lhcnRRejlLMG1YRzMzcDh6emVxeDUzd1BOZlhsajJFUkdoOFd4T0MrMFBuT3hqUUJjU2dYUXpuSVpUSWxoWVgrdkhZcmVBdz09Cg==",
+      "url": "https://github.com/ALCOMD/ALCOMD/releases/download/v3.4.0/ALCOMD3_3.4.0_linux_x86_64.AppImage.tar.gz",
       "args": []
     }
   }
