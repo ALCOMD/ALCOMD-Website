@@ -621,29 +621,29 @@ md-outlined-icon-button:not(:defined) {
     --md-filled-tonal-button-container-height: var(--header-action-size);
     --md-filled-tonal-button-focus-container-elevation: 0;
     --md-filled-tonal-button-hover-container-elevation: 0;
-    --md-filled-tonal-button-icon-size: 2.25rem;
+    --md-filled-tonal-button-icon-size: 1.55rem;
     --md-filled-tonal-button-label-text-color: var(--md-sys-color-on-primary-container);
     --md-filled-tonal-button-label-text-size: 0.95rem;
     --md-filled-tonal-button-pressed-container-elevation: 0;
 }
 
-.header-partner-button img {
-    width: 2.25rem;
-    height: 2.25rem;
+.header-partner-logo {
+    width: 1.55rem;
+    height: 1.55rem;
     flex: none;
     object-fit: contain;
 }
 
 .header-actions .header-partner-icon-button {
-    --md-filled-tonal-icon-button-icon-size: 2.25rem;
+    --md-filled-tonal-icon-button-icon-size: 1.55rem;
 
     display: none;
 }
 
-.header-partner-icon-button img {
-    width: 2.25rem;
-    height: 2.25rem;
-    object-fit: contain;
+.header-partner-icon-button .header-partner-logo {
+    display: block;
+    width: 1.55rem;
+    height: 1.55rem;
 }
 
 .header-menu-anchor {

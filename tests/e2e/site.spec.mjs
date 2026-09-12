@@ -21,6 +21,9 @@ test("all localized routes build and expose the four-control header", async ({ p
     const header = page.locator(".app-header");
     await expect(header.locator("md-filled-tonal-icon-button")).toHaveCount(4);
     await expect(header.locator(".header-primary-links .header-nav-link")).toHaveCount(2);
+    const partnerLink = header.locator(".header-partner-button");
+    await expect(partnerLink).toHaveAttribute("href", "https://www.vrclearn.com/");
+    await expect(partnerLink).toHaveText("VRCLearn");
 });
 
 test("theme and language controls persist explicit choices", async ({ page }) => {

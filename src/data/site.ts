@@ -90,7 +90,7 @@ export type LocaleContent = {
     gumroad: string;
     advantages: Advantage[];
     resourcesTitle: string;
-    vrcalLink: string;
+    vrclearnLink: string;
 };
 
 export const locales: Record<LanguageKey, LocaleContent> = {
@@ -228,7 +228,7 @@ export const locales: Record<LanguageKey, LocaleContent> = {
             },
         ],
         resourcesTitle: "相关资源",
-        vrcalLink: "VRChatAvatarLearn",
+        vrclearnLink: "VRCLearn",
     },
     "zh-tw": {
         lang: "zh-tw",
@@ -364,7 +364,7 @@ export const locales: Record<LanguageKey, LocaleContent> = {
             },
         ],
         resourcesTitle: "相關資源",
-        vrcalLink: "VRChatAvatarLearn",
+        vrclearnLink: "VRCLearn",
     },
     "ja-jp": {
         lang: "ja-jp",
@@ -500,7 +500,7 @@ export const locales: Record<LanguageKey, LocaleContent> = {
             },
         ],
         resourcesTitle: "関連リソース",
-        vrcalLink: "VRChatAvatarLearn",
+        vrclearnLink: "VRCLearn",
     },
     "en-us": {
         lang: "en-us",
@@ -636,6 +636,6 @@ export const locales: Record<LanguageKey, LocaleContent> = {
             },
         ],
         resourcesTitle: "Related resources",
-        vrcalLink: "VRChatAvatarLearn",
+        vrclearnLink: "VRCLearn",
     },
 };
